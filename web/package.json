@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "PocketCards frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@near-wallet-selector/core": "^10.1.4",
+    "@near-wallet-selector/modal-ui": "^10.1.4",
+    "@near-wallet-selector/my-near-wallet": "^10.1.4",
+    "buffer": "^6.0.3",
+    "near-api-js": "^7.5.3",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

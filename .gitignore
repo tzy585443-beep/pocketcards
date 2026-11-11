@@ -1,0 +1,12 @@
+/target
+web/node_modules/
+node_modules/
+.env
+*.env
+.secrets
+*.pem
+# near-cli credential files never belong here
+.near-credentials/
+**/ed25519_*.json
+scripts/*.mp3
+scripts/raw.webm
